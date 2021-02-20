@@ -1,0 +1,5 @@
+Promise.resolve(1)
+    .then(x => x + 1)
+    .catch(x => x + 2)
+    .then(x => x + 3)
+    .then(x => x + 2)
